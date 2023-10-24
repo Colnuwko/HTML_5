@@ -9,17 +9,50 @@
   <body>
     <header class="site-header">
       <div class="pages">
-        <a href="file:///C:/Users/Солнышко/Desktop/All_Labs/HTML/HTML_4/index_2.html">Основная страница</a>
-        <a href="file:///C:/Users/Солнышко/Desktop/All_Labs/HTML/HTML_4/index_page_2.html">Позиционирование элементов</a>
-        <a href="file:///C:/Users/Солнышко/Desktop/All_Labs/HTML/HTML_4/index_page_3.html">Таблички</a>
+        <a href="file:///C:/Users/Солнышко/Desktop/All_Labs/HTML/HTML_5/index_2.html">Основная страница</a>
+        <a href="file:///C:/Users/Солнышко/Desktop/All_Labs/HTML/HTML_5/index_page_2.html">Позиционирование элементов</a>
+        <a href="file:///C:/Users/Солнышко/Desktop/All_Labs/HTML/HTML_5/index_page_3.html">Таблички</a>
       </div>
       <div class="container">
-        <h1>Лабораторная номер 4</h1>
+        <h1>Лабораторная номер 5</h1>
         <p>Выполнил: Чугунов Владислав <img src="img/cat-5-svgrepo-com.svg" class="image"></p>
       </div>
     </header>
     <section class="content">
-        <table>
+      <form>
+        <div>
+        <label for="name">Название</label>
+        <br />
+        <input id="name" type="text">
+        </div>
+        <div>
+        <label for="season">Сезонов</label>
+        <br />
+        <input id="season" type="text">
+        </div>
+        <div>
+        <label for="series">Серий/Частей</label>
+        <br />
+        <input id="series" type="text">
+        </div>
+        <div>
+        <label for="data_of_release">Дата выхода</label>
+        <br />
+        <input id="data_of_release" type="text">
+        </div>
+        <div>
+        <label for="fees">Сборы в мире</label>
+        <br />
+        <input id="fees" type="text">
+        </div>
+        <div>
+        <label for="link">Ссылка</label>
+        <br />
+        <input id="link" type="text">
+        </div>
+        <button class="button" type="button">Добавить элемент</button>
+      </form>
+        <table id="node">
             <caption>Топ моих любимых фильмов и сериалов</caption>
             <thead>
                 <tr>
@@ -133,5 +166,6 @@
         <p>Продолжение великого в следующей лабе</p>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
