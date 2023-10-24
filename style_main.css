@@ -1,0 +1,73 @@
+body {
+    margin: 5px;
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444444;
+    background: local;
+    background-color:antiquewhite ;
+  }
+  
+  p {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    line-height: 20px;
+  }
+  
+  h1 {
+    width: 100%;
+    margin: 3px;
+    padding:5px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+  }
+  
+  h2{
+    width: 100%;
+    margin: 5px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 26px;
+  
+  }
+  
+  a {
+    margin: 3px;
+    padding: 4px;
+  }
+  
+  li {
+    text-align: left;
+  }
+  
+  img {
+    width: 13%;
+  }
+
+  .pages {
+    text-align: end;
+  }
+
+  .site-header {
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    background: #847462 no-repeat center url("img/gloevk-bg.jpg");
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  .site-footer {
+    min-width: 100%;
+    background-color: #847462;
+    color: #ffffff;
+  }

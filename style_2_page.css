@@ -1,0 +1,114 @@
+.container {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.container-2 {
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .container-3 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    display: flex;
+    border: solid #ebdbdb;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #second.container {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+  }
+
+  #second.container .image {
+    display: block;
+    width: 200px;
+  }
+  
+  .container-2 .image {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .block, .block-2, .block-3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(234, 195, 148);
+  }
+  
+  
+  .block-2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .block-3 {
+    margin: 30px; 
+  }
+  
+  .position {
+    width: 700px;
+    height: 700px;
+    margin: 20px auto;
+    padding: 0 20px;
+    border: solid #444444;
+  }
+  
+  .block_1, .block_2, .block_3 {
+    width: 194px;
+    height: 194px;
+    margin: 0px;
+    background-color: rgb(234, 195, 148);
+    border: solid #444444
+  }
+  .block_1 {
+    position: relative;
+    left: 50px;
+  }
+  .block_2 {
+    position: relative;
+    left: 150px;
+    bottom: 100px
+  }
+  .block_3 {
+    position: relative;
+    left: 250px;
+    bottom: 200px;
+  }
+  
+  .cat .image {
+    width: 100px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+  }
+  
+  .site-header img {
+    display: block;
+    margin: 0 auto;
+    
+  }
+
+  .site-header p {
+    width: 255px;
+    margin: 0 auto 26px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px; 
+  }
